@@ -7,7 +7,7 @@ export const inngest = new Inngest({ id: "ApnaDwarkaMart" });
 
 
 //Inngest function to save user data to database
-export const syncUserData = inngest.createFunction(
+export const syncUserCreation = inngest.createFunction(
     {
         id : 'sync-user-from-clerk'
     },
